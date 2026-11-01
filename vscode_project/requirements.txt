@@ -1,0 +1,10 @@
+# Run this in VS Code terminal:
+# pip install -r requirements.txt
+# python main.py
+pyserial>=3.5
+google-genai>=2.4.0
+requests>=2.31.0
+sounddevice>=0.4.6
+PyQt6>=6.6.0
+psutil>=5.9.8
+Pillow>=10.2.0

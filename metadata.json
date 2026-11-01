@@ -1,0 +1,6 @@
+{
+  "name": "JARVIS Home Automation & Arduino Voice Hub",
+  "description": "AI Voice Assistant integrated with Arduino relay control, modular API key switcher, low-latency async serial protocols, and VS Code export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

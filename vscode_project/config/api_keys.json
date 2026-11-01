@@ -1,0 +1,35 @@
+{
+    "active_provider": "gemini",
+    "fallback_chain": [
+        "gemini",
+        "openrouter",
+        "groq"
+    ],
+    "providers": {
+        "gemini": {
+            "api_key": "YOUR_GEMINI_API_KEY",
+            "model": "models/gemini-2.5-flash",
+            "live_model": "models/gemini-2.5-flash-native-audio-preview-12-2025",
+            "enabled": true,
+            "test_endpoint": "https://generativelanguage.googleapis.com"
+        },
+        "openrouter": {
+            "api_key": "YOUR_OPENROUTER_API_KEY",
+            "model": "meta-llama/llama-3.3-70b-instruct:free",
+            "enabled": true,
+            "test_endpoint": "https://openrouter.ai/api/v1/models"
+        },
+        "groq": {
+            "api_key": "YOUR_GROQ_API_KEY",
+            "model": "llama-3.3-70b-versatile",
+            "enabled": false,
+            "test_endpoint": "https://api.groq.com/openai/v1/models"
+        }
+    },
+    "arduino": {
+        "port": "AUTO",
+        "baud_rate": 115200,
+        "timeout": 1.0,
+        "active_low": true
+    }
+}
